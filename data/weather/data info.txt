@@ -1,0 +1,58 @@
+average wind speed
+	- average of wind speed observations throughout the day
+	- https://w1.weather.gov/glossary/index.php?word=wind+speed
+
+
+max sustained wind speed
+	- "When applied to a particular weather system, refers to the highest one-minute average wind (at an elevation of 10 meters with an unobstructed exposure) associated with that weather system at a particular point in time."
+	- https://w1.weather.gov/glossary/index.php?letter=m
+
+
+gust
+	- "Is a sudden, brief increase in speed of the wind. According to U.S. weather observing practice, gusts are reported when the peak wind speed reaches at least 16 knots and the variation in wind speed between the peaks and lulls is at least 9 knots. The duration of a gust is usually less than 20 seconds"
+	- https://graphical.weather.gov/definitions/defineWindGust.html
+
+
+precipitation
+	From metadata.txt:
+			Total precipitation (rain and/or melted
+                         snow) reported during the day in inches
+                         and hundredths; will usually not end 
+                         with the midnight observation--i.e., 
+                         may include latter part of previous day.
+                         .00 indicates no measurable              
+                         precipitation (includes a trace).        
+                         Missing = 99.99
+                         Note:  Many stations do not report '0' on
+                         days with no precipitation--therefore,  
+                         '99.99' will often appear on these days.
+                         Also, for example, a station may only
+                         report a 6-hour amount for the period 
+                         during which rain fell.
+                         See Flag field for source of data.
+Flag    124-124   Char   A = 1 report of 6-hour precipitation 
+                             amount.
+                         B = Summation of 2 reports of 6-hour 
+                             precipitation amount.
+                         C = Summation of 3 reports of 6-hour 
+                             precipitation amount.
+                         D = Summation of 4 reports of 6-hour 
+                             precipitation amount.
+                         E = 1 report of 12-hour precipitation
+                             amount.
+                         F = Summation of 2 reports of 12-hour
+                             precipitation amount.
+                         G = 1 report of 24-hour precipitation
+                             amount.
+                         H = Station reported '0' as the amount
+                             for the day (eg, from 6-hour reports),
+                             but also reported at least one
+                             occurrence of precipitation in hourly
+                             observations--this could indicate a
+                             trace occurred, but should be considered
+                             as incomplete data for the day.
+                         I = Station did not report any precip data
+                             for the day and did not report any
+                             occurrences of precipitation in its hourly
+                             observations--it's still possible that
+                             precip occurred but was not reported.
